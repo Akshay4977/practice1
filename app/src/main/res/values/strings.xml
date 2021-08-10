@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Characters</string>
+    <string name="loading_text">Loading</string>
+    <string name="loading_message">Wait while loading...</string>
+    <string name="error_message">Something went wrong...</string>
+    <string name="profile_data">This is profile data. This is profile data. This is profile data. This is profile data. This is profile data. This is profile data. This is profile data. This is profile data. This is profile data.</string>
+</resources>

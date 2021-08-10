@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ProfileActivity"
+    android:layout_margin="16dp">
+
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/profile_image_view"
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/profile_name_text_view"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/profile_image_view"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/profile_birthday_text_view"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/profile_name_text_view"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/profile_info_text_view"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/profile_birthday_text_view"
+            android:layout_centerHorizontal="true"
+            android:textSize="16sp"
+            android:text="@string/profile_data"
+            android:layout_marginTop="15dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
